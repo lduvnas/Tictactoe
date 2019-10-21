@@ -1,0 +1,53 @@
+body{
+    background: rgb(156, 133, 145);
+    
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.playerIcon{
+    width: 12px;
+    
+}
+
+button {
+	background-color: white;
+	border: 2px solid rgb(156, 133, 145);
+	font-size:5px;
+    color:#5c5c5c;
+    width: 20px;
+    height: 20px;
+    border-radius: 3px 3px 3px 3px;
+   
+    
+}
+
+.row{
+    display:flex;
+    padding: 0;
+}
+
+.board{
+    margin-left:auto; 
+    margin-right:auto;
+    z-index: 1;
+    
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    width: 400px;
+  
+}
+
+.background_image{
+    position: absolute;
+left: 210px;
+top: 0px;
+    z-index: -1;
+}
